@@ -1,16 +1,17 @@
 #!/usr/bin/env bash
 
 # make a more nice update process huh...
-echo Starting update process...
+echo "Starting update process..."
 
 # Python2
-echo updating Python2 packages...
+echo "updating Python2 packages..."
 sudo python update_pack.py
-echo updating Python2 packages complete!
+echo "updating Python2 packages complete!"
 
 #Python3
-echo updating Python3 packages ...
+echo "updating Python3 packages ..."
 sudo python3 update_pack.py
-echo updating Python3 packaged complete!
+echo "updating Python3 packaged complete!"
 
-echo Finished updating packages!
+echo "Finished updating packages!"
+
